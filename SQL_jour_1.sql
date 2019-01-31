@@ -211,3 +211,6 @@ AS SELECT livre.id, titre, nom_genre, editeur.nom -- avant de faire une view, il
 FROM livre
 JOIN editeur ON livre.id_editeur = editeur.id
 JOIN genre ON livre.id_genre = genre.id
+
+
+
